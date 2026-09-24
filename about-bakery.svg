@@ -1,0 +1,59 @@
+<svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cakeTitle">
+  <title id="cakeTitle">Illustration of a handcrafted three-tier cake with berries and a lit candle</title>
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F1D9C5"/>
+      <stop offset="100%" stop-color="#FBF3E7"/>
+    </linearGradient>
+    <linearGradient id="tier1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8C2C3C"/>
+      <stop offset="100%" stop-color="#7A2331"/>
+    </linearGradient>
+    <linearGradient id="tier2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FBF3E7"/>
+      <stop offset="100%" stop-color="#F1D9C5"/>
+    </linearGradient>
+    <linearGradient id="tier3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D9AE55"/>
+      <stop offset="100%" stop-color="#C9962C"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="600" rx="28" fill="url(#bgGrad)"/>
+
+  <!-- plate -->
+  <ellipse cx="300" cy="470" rx="170" ry="18" fill="#3A2620" opacity="0.12"/>
+
+  <!-- base tier -->
+  <rect x="150" y="380" width="300" height="90" rx="10" fill="url(#tier1)"/>
+  <path d="M150 385 q75 20 150 0 q75 -20 150 0 v10 q-75 20 -150 0 q-75 -20 -150 0 z" fill="#FBF3E7" opacity="0.35"/>
+
+  <!-- middle tier -->
+  <rect x="195" y="290" width="210" height="90" rx="10" fill="url(#tier2)"/>
+  <path d="M195 296 q52 16 105 0 q52 -16 105 0 v8 q-52 16 -105 0 q-52 -16 -105 0 z" fill="#7A2331" opacity="0.15"/>
+
+  <!-- top tier -->
+  <rect x="235" y="205" width="130" height="85" rx="10" fill="url(#tier3)"/>
+
+  <!-- drips -->
+  <path d="M150 380 q10 22 4 30 q-6 8 -14 0 q-4 -10 4 -30z" fill="#4A2C2A" opacity="0.55"/>
+  <path d="M300 380 q10 26 2 36 q-8 8 -16 -2 q-4 -12 6 -34z" fill="#4A2C2A" opacity="0.55"/>
+  <path d="M420 380 q10 20 2 28 q-8 8 -14 -2 q-2 -10 4 -26z" fill="#4A2C2A" opacity="0.55"/>
+
+  <!-- berries -->
+  <circle cx="210" cy="300" r="9" fill="#7A2331"/>
+  <circle cx="240" cy="292" r="7" fill="#C9962C"/>
+  <circle cx="360" cy="298" r="8" fill="#7A2331"/>
+  <circle cx="270" cy="215" r="7" fill="#C9962C"/>
+  <circle cx="330" cy="212" r="6" fill="#7A2331"/>
+
+  <!-- candle -->
+  <rect x="292" y="160" width="10" height="45" rx="3" fill="#F1D9C5" stroke="#7A2331" stroke-width="2"/>
+  <path d="M297 160 q6 -14 0 -26 q-6 12 0 26z" fill="#D9AE55"/>
+  <path d="M297 148 q4 -9 0 -17 q-4 8 0 17z" fill="#7A2331"/>
+
+  <!-- crumbs -->
+  <circle cx="120" cy="500" r="4" fill="#4A2C2A" opacity="0.4"/>
+  <circle cx="480" cy="505" r="5" fill="#4A2C2A" opacity="0.4"/>
+  <circle cx="500" cy="480" r="3" fill="#4A2C2A" opacity="0.4"/>
+</svg>
