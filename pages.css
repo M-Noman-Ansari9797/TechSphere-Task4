@@ -1,0 +1,20 @@
+/* Extra styles for the multi-page version — load AFTER style.css */
+.page-hero {
+  background: #FBF3E7;
+  text-align: center;
+  padding: 120px 0 48px; /* top padding clears the fixed header */
+}
+.page-hero h1 {
+  font-family: 'Fraunces', serif;
+  color: #5E1B26;
+  margin: 0 0 8px;
+}
+.page-hero p { color: #3A2620; margin: 0; }
+
+/* Active nav link */
+.nav-links a.active,
+.nav-links a[aria-current="page"] {
+  color: #5E1B26;
+  font-weight: 700;
+  border-bottom: 2px solid #5E1B26;
+}
